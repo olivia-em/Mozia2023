@@ -21,6 +21,16 @@ h2 {
   font-weight: 500;
 }
 
+h3 {
+  font-size: 9px;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Courier";
+  font-weight: 500;
+}
+
 img {
   width: 20%;
   height: auto;
@@ -135,5 +145,5 @@ model-viewer {
   margin: 1rem auto 0;
   padding: 1rem 0 0.75rem 0;
   flex-wrap: wrap;
-  border-top: 4px solid #ffffff;
+  border-top: 1px solid #ffffff;
 }
