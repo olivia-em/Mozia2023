@@ -1,3 +1,8 @@
+model-viewer {
+  width: 800px;
+  height: 600px;
+}
+
 .hotspot {
   display: block;
   width: 20px;
@@ -9,12 +14,12 @@
   pointer-events: none;
 }
 
-.hotspot[slot="hotspot-hand"] {
+.hotspot[slot="hotspot-3"] {
   --min-hotspot-opacity: 0;
   background-color: red;
 }
 
-.hotspot[slot="hotspot-foot"]:not([data-visible]) {
+.hotspot[slot="hotspot-2"]:not([data-visible]) {
   background-color: transparent;
   border: 3px solid blue;
 }
