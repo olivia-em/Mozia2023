@@ -44,7 +44,16 @@
         magic in the ancient world was not as separate from normal life as has
         been assumed.
       </h2>
-<model-viewer onclick="selected()" id="modelblock"
+      <script type="text/javascript">
+    function showMask() {
+        var node = document.getElementById('hotbtn')
+        node.style.visibility = 'visible';
+        if node.is(":visible") {
+            node.style.visibility = 'hidden';
+        }
+    }
+</script>
+<model-viewer onclick="selected(); showMask()" id="modelblock"
         src="https://cdn.glitch.me/76f093a7-60f7-4db6-9281-d1a02cfcbb14/bowl.glb?v=1682879288415"
         ar
         ar-modes="webxr scene-viewer quick-look"
@@ -57,9 +66,10 @@
           slot="hotspot-2"
           data-position="29.14690842592848m 7.769318147886741m 2.6800726802155665m"
           data-normal="0.7447322151982472m 0.6008744369844355m -0.29038567220947625m"
-          data-visibility-attribute= not["visible"]
+          data-visibility-attribute="visible"
+          onclick="showMask()"
         >
-          <div class="HotspotAnnotation">
+          <div id="hotbtn" class="HotspotAnnotation" style="visibility: hidden;">
             Covers to hold in sacred Angels and all evil Spirits and the tongue
             of impious Amulet-spirits. Now you are conquered, you are charmed;
             charmed, you are charmed and sealed in each one of the four (2)
