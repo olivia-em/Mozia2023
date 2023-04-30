@@ -34,18 +34,27 @@ h2 {
   font: ;
 }
 
-*/
-
-:host { }
+*/ :host {
+  display: inline-block;
+  position: relative;
+  contain: strict;
+  justify-content: center;
+}
 
 model-viewer {
   width: 1000px;
   background-color: #000000;
-  display: block;
+  display: inline-block;
   position: relative;
   contain: strict;
   height: 600px;
-  justify-content: center;
+}
+
+container {
+  height: 600px;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .Hotspot {
