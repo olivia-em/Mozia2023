@@ -3,20 +3,20 @@
 }
 
 h1 {
-  font-size: 16px;
+  font-size: 20px;
   color: #ffffff;
   margin-top: 40px;
   margin-left: 100px;
   margin-right: 100px;
-  font-family: "times";
+  font-family: ;
 }
 h2 {
-  font-size: 12px;
+  font-size: 15px;
   color: #ffffff;
   margin-top: 40px;
   margin-left: 100px;
   margin-right: 100px;
-  font-family: "times";
+  font-family: Times;
 }
 
 */ :host {
@@ -32,7 +32,7 @@ model-viewer {
   margin-left : auto;
   margin-right : auto;
   height: 600px;
-  width: auto;
+  width: 600px;
 }
 
 
@@ -43,28 +43,28 @@ model-viewer {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
   box-sizing: border-box;
   cursor: pointer;
-  height: 24px;
+  height: 12px;
   padding: 8px;
   position: relative;
   transition: opacity 0.3s;
-  width: 24px;
+  width: 12px;
 }
 
 .Hotspot:not([data-visible]) {
   background: transparent;
   border: 2px solid #ffffff;
   box-shadow: none;
-  height: 32px;
+  height: 12px;
   pointer-events: none;
-  width: 32px;
+  width: 12px;
   opacity: 0;
 }
 
 .Hotspot:focus {
-  border: 4px solid rgb(0, 128, 200);
-  height: 32px;
+  border: 2px solid rgb(0, 128, 200);
+  height: 12px;
   outline: none;
-  width: 32px;
+  width: 12px;
 }
 
 .Hotspot > * {
@@ -95,7 +95,7 @@ model-viewer {
 .Hotspot:not([data-visible]) > * {
   opacity: 0;
   pointer-events: none;
-  transform: translateY(calc(-50% + 4px));
+  transform: translateY(calc(-50% + 2px));
   transition: transform 0.3s, opacity 0.3s;
 }
 
