@@ -44,17 +44,18 @@ h2 {
 model-viewer {
   width: 1000px;
   background-color: #000000;
-  display: inline-block;
   position: relative;
   contain: strict;
   height: 600px;
+  margin-left : auto;
+  margin-right : auto;
 }
 
 container {
   height: 600px;
   width: 1000px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 
 }
 
 .Hotspot {
