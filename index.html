@@ -46,11 +46,9 @@
       </h2>
       <script type="text/javascript">
     function showMask() {
-        var node = document.getElementById('hotbtn')
-        node.style.visibility = 'visible';
-        if node.is(":visible") {
-            node.style.visibility = 'hidden';
-        }
+            var node = document.getElementById('hotbtn1')
+    var visibility = node.style.visibility;
+    node.style.visibility = visibility == "visible" ? 'hidden' : "visible"
     }
 </script>
 <model-viewer onclick="selected(); showMask()" id="modelblock"
@@ -69,7 +67,8 @@
           data-visibility-attribute="visible"
           onclick="showMask()"
         >
-          <div id="hotbtn" class="HotspotAnnotation" style="visibility: hidden;">
+          <div id="hotbtn1" class="HotspotAnnotation" style="visibility: hidden;">
+            <strong>Translation:</strong>
             Covers to hold in sacred Angels and all evil Spirits and the tongue
             of impious Amulet-spirits. Now you are conquered, you are charmed;
             charmed, you are charmed and sealed in each one of the four (2)
@@ -95,8 +94,9 @@
           data-position="37.71852580829251m 3.1849358315853706m 2.5156131857141584m"
           data-normal="-0.15674425103409154m 0.9177679513967566m -0.3648742621188325m"
           data-visibility-attribute="visible"
+          onclick="showMask()"
         >
-          <div class="HotspotAnnotation">
+          <div id="hotbtn2" class="HotspotAnnotation" style="visibility: hidden;">
             Illustration is of a sorcerer waving his bough to ward off the
             demons. Normally there would be a bound demon in the center, but
             this is not entirely uncommon. This use of the bough is found in
@@ -109,8 +109,9 @@
           data-position="40.84332787308388m 2.928404757977521m -2.137005014718862m"
           data-normal="0.6463934519407232m -0.72200051268739m -0.2467605417551645m"
           data-visibility-attribute="visible"
+                 onclick="showMask()"
         >
-          <div class="HotspotAnnotation">
+          <div id="hotbtn3" class="HotspotAnnotation" style="visibility: hidden;">
             The writing on the back is the object number, added when it was
             acquired by the museum. While this specific bowl is not on display,
             there are a few others (B16023, B2945, and B13186) that can be seen
@@ -122,8 +123,9 @@
           data-position="29.323295712655153m 5.953096239599052m -1.3963528783665524m"
           data-normal="-0.7528967595285737m -0.6480105228811206m -0.11501665847480508m"
           data-visibility-attribute="visible"
+                 onclick="showMask()"
         >
-          <div class="HotspotAnnotation">
+          <div id="hotbtn4" class="HotspotAnnotation" style="visibility: hidden;" >
             This bowl is made up of 5 fragments that have been glued together or
             filled in, and it has 11 lines of inscription. The inscription is a
             general protective spell, and it also clearly states that the bowl
@@ -131,9 +133,6 @@
             appears in another bowl in the Penn Museum’s collection.
           </div>
         </button>
-        <div class="progress-bar hide" slot="progress-bar">
-          <div class="update-bar"></div>
-        </div>
       </model-viewer>
       
       <a
