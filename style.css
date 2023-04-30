@@ -8,7 +8,7 @@ h1 {
   margin-top: 40px;
   margin-left: 100px;
   margin-right: 100px;
-  font-family: ;
+  font-family: "Courier";
 }
 h2 {
   font-size: 15px;
@@ -16,7 +16,7 @@ h2 {
   margin-top: 40px;
   margin-left: 100px;
   margin-right: 100px;
-  font-family: Times;
+  font-family: "Courier";
 }
 
 */ :host {
@@ -32,7 +32,7 @@ model-viewer {
   margin-left : auto;
   margin-right : auto;
   height: 600px;
-  width: 600px;
+  width: 1000px;
 }
 
 
@@ -77,9 +77,9 @@ model-viewer {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
   color: rgba(0, 0, 0, 0.8);
   display: block;
-  font-family: Times;
-  font-size: 11px;
-  font-weight: 700;
+  font-family: "Courier";
+  font-size: 9px;
+  font-weight: 500;
   left: calc(100% + 1em);
   max-width: 300px;
   overflow-wrap: break-word;
