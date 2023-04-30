@@ -25,38 +25,39 @@
   display: none;
 }
 
-h2 {
+h1 {
   font-size: 16px;
   color: #ffffff;
   margin-top: 40px;
   margin-left: 100px;
   margin-right: 100px;
-  font: ;
+  font-family: "times";
+}
+h2 {
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "times";
 }
 
 */ :host {
-  display: inline-block;
   position: relative;
   contain: strict;
   justify-content: center;
 }
 
 model-viewer {
-  width: 1000px;
   background-color: #000000;
   position: relative;
   contain: strict;
-  height: 600px;
   margin-left : auto;
   margin-right : auto;
+  height: 600px;
+  width: auto;
 }
 
-container {
-  height: 600px;
-  width: 1000px;
-  margin-right: auto;
-  margin-left: 
-}
 
 .Hotspot {
   background: #ffffff;
@@ -98,11 +99,11 @@ container {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
   color: rgba(0, 0, 0, 0.8);
   display: block;
-  font-family: Futura, Helvetica Neue, sans-serif;
+  font-family: Times;
   font-size: 11px;
   font-weight: 700;
   left: calc(100% + 1em);
-  max-width: 128px;
+  max-width: 300px;
   overflow-wrap: break-word;
   position: absolute;
   top: 50%;
