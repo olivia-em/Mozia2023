@@ -22,10 +22,13 @@ h2 {
 }
 
 img {
-  width: 400px; 
+  width: 20%; 
   height: auto;
-  margin: auto;
- 
+}
+
+div.img.container {
+  margin: auto; 
+  align-content: center;
 }
 
 */ :host {
@@ -41,7 +44,7 @@ model-viewer {
   margin-left : auto;
   margin-right : auto;
   height: 600px;
-  width: 1000px;
+  width: 75%;
 }
 
 
