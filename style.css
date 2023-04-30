@@ -9,14 +9,23 @@ h1 {
   margin-left: 100px;
   margin-right: 100px;
   font-family: "Courier";
+  font-weight: 700;
 }
 h2 {
   font-size: 15px;
   color: #ffffff;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-left: 100px;
   margin-right: 100px;
   font-family: "Courier";
+  font-weight: 500;
+}
+
+img {
+  width: 400px; 
+  height: auto;
+  margin: auto;
+ 
 }
 
 */ :host {
