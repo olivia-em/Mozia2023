@@ -111,6 +111,7 @@ model-viewer {
   transform: translate(10px, 10px);
   border-radius: 10px;
   padding: 10px;
+  text-align: left;
 }
 
 .Hotspot:not([data-visible]) > * {
@@ -137,3 +138,5 @@ model-viewer {
     transform: translateX(-100px);
   }
 }
+
+

@@ -49,3 +49,12 @@ const onProgress = (event) => {
   }
 };
 document.querySelector("model-viewer").addEventListener("progress", onProgress);
+
+function showMask() {
+    var node = document.getElementById('hotbtn');
+    if (node.style.visibility=='visible') {
+        node.style.visibility = 'hidden';
+    }
+    else
+        node.style.visibility = 'visible'
+}

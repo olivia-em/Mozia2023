@@ -44,10 +44,7 @@
         magic in the ancient world was not as separate from normal life as has
         been assumed.
       </h2>
-      
-      <div id="displayblocks">
-
-<model-viewer ondblclick="addHotspot()" onclick="selected()" id="modelblock"
+<model-viewer onclick="selected()" id="modelblock"
         src="https://cdn.glitch.me/76f093a7-60f7-4db6-9281-d1a02cfcbb14/bowl.glb?v=1682879288415"
         ar
         ar-modes="webxr scene-viewer quick-look"
@@ -60,7 +57,7 @@
           slot="hotspot-2"
           data-position="29.14690842592848m 7.769318147886741m 2.6800726802155665m"
           data-normal="0.7447322151982472m 0.6008744369844355m -0.29038567220947625m"
-          data-visibility-attribute="visible"
+          data-visibility-attribute= not["visible"]
         >
           <div class="HotspotAnnotation">
             Covers to hold in sacred Angels and all evil Spirits and the tongue
@@ -128,99 +125,7 @@
           <div class="update-bar"></div>
         </div>
       </model-viewer>
-      <div id="formblock">
-    <form onSubmit="return false;">
-        
-  <input type="text" id="hotspottext" name="hotspottext" placeholder="Input text for hotspot">
- </form>
-
- 
-  <div class="center"><button class="btn" onclick="removeHotspot()">Remove last hotspot</button></div>
-   
-</div>
-</div>
-
-
-<script>
-    function selected(){
-            // Add active class to the current button (highlight it)
-var header = document.getElementById("modelblock");
-var hotspots = header.getElementsByClassName("hotspot");
-for (var i = 0; i < hotspots.length; i++) {
-  hotspots[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("selected");
-  if (current.length > 0) { 
-    current[0].className = current[0].className.replace(" selected", "");
-  }
-  this.className += " selected";
-  });
-}
-
-    }
-
-
-    </script>
-        
-<script>
-    //hotspot counter so we can keep track of how many we added on 3 because we already have hotspot-0 and hotspot-1 (set to 0 if you start with 0 hotspots)
-    var hotspotCounter = 4;
-    function addHotspot(MouseEvent) {
-        var inputtext = document.querySelector('input').value;
-
-        // if input = nothing then alert error if it isnt then add the hotspot
-        if (inputtext == ""){
-    alert("Put in text first to add hotspots.");
-}else{
-       
-      const viewer = document.querySelector('#modelblock');
-    const rect = viewer.getBoundingClientRect();
-
-const x = event.clientX - rect.left;
-const y = event.clientY - rect.top;
-const positionAndNormal = viewer.positionAndNormalFromPoint(x, y);
-
-// if the model is not clicked return the position in the console
-if (positionAndNormal == null) {
-console.log('no hit result: mouse = ', x, ', ', y);
-return;
-}
-const {position, normal} = positionAndNormal;
-
-// create the hotspot
-const hotspot = document.createElement('button');
-hotspot.slot = `hotspot-${hotspotCounter ++}`;
-hotspot.classList.add('hotspot');
-hotspot.id = `hotspot-${hotspotCounter}`;
-hotspot.dataset.position = position.toString();
-if (normal != null) {
-hotspot.dataset.normal = normal.toString();
-}
-viewer.appendChild(hotspot);
-console.log('mouse = ', x, ', ', y, positionAndNormal);
-
-
-// adds the text to last hotspot
-var element = document.createElement("div");
-element.classList.add('annotation');
-element.appendChild(document.createTextNode(inputtext));
-document.getElementById(`hotspot-${hotspotCounter}`).appendChild(element);
-
-document.querySelector('input').value = "";
-}
-}
-
-</script>
-<script>
-    function removeHotspot(){
-    var el = document.getElementById(`hotspot-${hotspotCounter}`);
-    
-    if (el == null){
-        alert("No hotspots to delete");
-    }else{
-        hotspotCounter --;
-el.remove()}; // Removes the last added hotspot
-}
-</script>
+      
       <a
         href="https://lh3.googleusercontent.com/drive-viewer/AFGJ81pgC218wWHGWEAKZoDSxGm57VxW6C3yO5FNFXGoFbAwyrdxQGhetPFVFx0ZdH6RXTGRfU5wHY7FUHN-zWbvi3WZB-bvCQ=s1600?source=screenshot.guru"
       >
