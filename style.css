@@ -35,10 +35,17 @@ h2 {
 }
 
 */
+
+:host { }
+
 model-viewer {
   width: 1000px;
-  height: auto;
-  background-color: #ffffff;
+  background-color: #000000;
+  display: block;
+  position: relative;
+  contain: strict;
+  height: 600px;
+  justify-content: center;
 }
 
 .Hotspot {
