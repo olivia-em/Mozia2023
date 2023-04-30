@@ -22,13 +22,14 @@ h2 {
 }
 
 img {
-  width: 20%; 
+  width: 20%;
   height: auto;
 }
 
 div.img.container {
-  margin: auto; 
-  align-content: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 */ :host {
@@ -41,12 +42,11 @@ model-viewer {
   background-color: #000000;
   position: relative;
   contain: strict;
-  margin-left : auto;
-  margin-right : auto;
+  margin-left: auto;
+  margin-right: auto;
   height: 600px;
   width: 75%;
 }
-
 
 .Hotspot {
   background: transparent;
@@ -129,4 +129,11 @@ model-viewer {
   }
 }
 
-
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto 0;
+  padding: 1rem 0 0.75rem 0;
+  flex-wrap: wrap;
+  border-top: 4px solid #ffffff;
+}
