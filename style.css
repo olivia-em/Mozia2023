@@ -13,16 +13,16 @@ body {
 }
 
 h1 {
-  font-size: 1.5vw;
+  font-size: 1.5vmax;
   color: #ffffff;
   margin-top: 40px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10vw;
+  margin-right: 10vw;
   font-family: "Courier";
   font-weight: 700;
 }
 h2 {
-  font-size: 1vw;
+  font-size: 1vmax;
   color: #ffffff;
   margin-top: 10px;
   margin-left: 10vw;
@@ -32,11 +32,11 @@ h2 {
 }
 
 h3 {
-  font-size: 0.75vw;
+  font-size: 0.75vmax;
   color: #ffffff;
   margin-top: 5px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10vw;
+  margin-right: 10vw;
   font-family: "Courier";
   font-weight: 500;
 }
@@ -72,7 +72,7 @@ model-viewer {
   contain: strict;
   margin-left: auto;
   margin-right: auto;
-  height: 70vh;
+  height: 50vmax;
   width: 75vw;
 }
 
@@ -121,7 +121,7 @@ model-viewer {
   font-size: 9px;
   font-weight: 500;
   left: calc(100% + 1em);
-  max-width: 300px;
+  max-width: 22vw;
   overflow-wrap: break-word;
   position: absolute;
   top: 50%;
