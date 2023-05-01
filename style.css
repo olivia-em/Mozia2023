@@ -31,6 +31,14 @@ h3 {
   font-weight: 500;
 }
 
+a:not(.btn--remix):link,
+a:not(.btn--remix):visited {
+  text-decoration: none;
+  border-bottom: 0px solid var(--color-primary);
+  transition: background 0.2s linear;
+  color: #ffffff;
+}
+
 img {
   width: 20%;
   height: auto;
