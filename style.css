@@ -2,6 +2,16 @@
   display: none;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+.wrapper {
+  min-height: 85vh;
+  place-items: center;
+  margin: 0;
+}
+
 h1 {
   font-size: 20px;
   color: #ffffff;
