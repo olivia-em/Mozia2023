@@ -72,8 +72,8 @@ model-viewer {
   contain: strict;
   margin-left: auto;
   margin-right: auto;
-  height: 50vmax;
-  width: 75vw;
+  height: 40vmax;
+  width: 70vw;
 }
 
 .Hotspot {
@@ -118,10 +118,10 @@ model-viewer {
   color: rgba(0, 0, 0, 0.8);
   display: block;
   font-family: "Courier";
-  font-size: 9px;
+  font-size: 0.75vmax;
   font-weight: 500;
   left: calc(100% + 1em);
-  max-width: 22vw;
+  max-width: 28vw;
   overflow-wrap: break-word;
   position: absolute;
   top: 50%;
