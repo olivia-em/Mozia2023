@@ -34,7 +34,7 @@ body {
 } */
 
 .square2 {
-  height: 20vmax;
+  height: 17vmax;
   width: 30vmax;
   left: 70vmax;
   top: -4vmax;
@@ -47,7 +47,7 @@ body {
   height: 10vmax;
   width: 15vmax;
   left: 60vmax;
-  top: 10vmax;
+  top: -6vmax;
   background-color: #030c8a;
   position: absolute;
   z-index: 6;
@@ -69,10 +69,10 @@ h1.title {
   color: #030c8a;
   text-align: center;
   font-family: "Palatino";
-  vertical
+  padding: .5vmax;
   font-weight: 700;
   z-index: 10;
-  height: 4vmax;
+  height: 3vmax;
   width: 22vmax;
   left: 62vmax;
   top: -3vmax;
