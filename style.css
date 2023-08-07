@@ -62,20 +62,25 @@ h1 {
 }
 
 h1.title {
-  font-size: 1.5vw;
+  font-size: 2vmax;
   color: #030c8a;
+  content-align: center;
   text-align: center;
+  vertical-align: middle;
   font-family: "Palatino";
-  padding: .5vmax;
   font-weight: 700;
   z-index: 10;
-  height: 3vmax;
+  height: 4vmax;
   width: 22vw;
+  top: -4vh;
   left: 62vw;
   border: solid;
   border-color: #030c8a;
   background-color: #F4EEDC;
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
