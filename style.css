@@ -18,10 +18,10 @@ body {
   left: 80vmax;
   top: 1vmax;
   background-color: #030c8a;
-  position: fixed;
+  position: absolute;
   z-index: 8;
 }
-.title {
+/* .title {
   height: 4vmax;
   width: 22vmax;
   left: 69vmax;
@@ -29,9 +29,9 @@ body {
   border: solid;
   border-color: #030c8a;
   background-color: #F4EEDC;
-  position: fixed;
+  position: absolute;
   z-index: 9;
-}
+} */
 
 .square2 {
   height: 20vmax;
@@ -39,7 +39,7 @@ body {
   left: 70vmax;
   top: -4vmax;
   background-color: #c95410;
-  position: fixed;
+  position: absolute;
   z-index: 7;
 }
 
@@ -49,7 +49,7 @@ body {
   left: 60vmax;
   top: 10vmax;
   background-color: #030c8a;
-  position: fixed;
+  position: absolute;
   z-index: 6;
 }
 
@@ -67,15 +67,19 @@ h1 {
 h1.title {
   font-size: 1.5vmax;
   color: #030c8a;
-  margin-top: 40px;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  text-align: center;
   font-family: "Palatino";
+  vertical
   font-weight: 700;
   z-index: 10;
+  height: 4vmax;
+  width: 22vmax;
+  left: 62vmax;
+  top: -3vmax;
+  border: solid;
+  border-color: #030c8a;
+  background-color: #F4EEDC;
   position: absolute;
-  left: -8vmax;
-  top: -4vmax;
 }
 
 h2 {
