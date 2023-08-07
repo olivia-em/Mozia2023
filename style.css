@@ -21,16 +21,20 @@ body {
 }
 
 .square2 {
-  height: 50px;
-  width: 50px;
+  height: 20vmax;
+  width: 30vmax;
+  left: 70%;
+  top: -4%;
   background-color: #c95410;
-  position: ;
+  position: absolute;
   z-index: 8;
 }
 
 .square3 {
-  height: 50px;
-  width: 50px;
+  height: 10vmax;
+  width: 15vmax;
+  left: 50%;
+  top: 10%;
   background-color: #030c8a;
   position: ;
   z-index: 7;
