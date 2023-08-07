@@ -62,7 +62,7 @@ h1 {
 }
 
 h1.title {
-  font-size: 2vmax;
+  font-size: 2vw;
   color: #030c8a;
   content-align: center;
   text-align: center;
@@ -70,10 +70,32 @@ h1.title {
   font-family: "Palatino";
   font-weight: 700;
   z-index: 10;
-  height: 4vmax;
+  height: 4vw;
   width: 22vw;
   top: -4vh;
   left: 62vw;
+  border: solid;
+  border-color: #030c8a;
+  background-color: #F4EEDC;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1.subtitle {
+  font-size: 1.5vw;
+  color: #030c8a;
+  content-align: center;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Palatino";
+  font-weight: 700;
+  z-index: 10;
+  height: 3vw;
+  width: 8vw;
+  top: 5vh;
+  left: 74vw;
   border: solid;
   border-color: #030c8a;
   background-color: #F4EEDC;
