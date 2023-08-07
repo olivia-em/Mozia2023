@@ -12,6 +12,19 @@ body {
   margin: 0;
 }
 
+.square1 {
+  height: 50px;
+  width: 50px;
+  background-color: #;
+  position: 
+}
+
+.square2 {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+}
+
 h1 {
   font-size: 1.5vmax;
   color: #030c8a;
@@ -175,3 +188,14 @@ model-viewer {
   flex-wrap: wrap;
   border-top: 1px solid #030c8a;
 }
+
+/* 
+style="
+          display: inline-flex;
+          height: 400px;
+          padding: 20px;
+          text-align: center;
+          margin: auto;
+          justify-content: center;
+        "
+*/
