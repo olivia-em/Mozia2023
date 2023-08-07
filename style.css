@@ -14,9 +14,8 @@ body {
 
 .square1 {
   height: 10vmax;
-  width: 15vmax;
-  left: 80vmax;
-  top: 1vmax;
+  width: 15vw;
+  left: 80vw;
   background-color: #030c8a;
   position: absolute;
   z-index: 8;
@@ -35,9 +34,8 @@ body {
 
 .square2 {
   height: 17vmax;
-  width: 30vmax;
-  left: 70vmax;
-  top: -4vmax;
+  width: 30vw;
+  left: 70vw;
   background-color: #c95410;
   position: absolute;
   z-index: 7;
@@ -45,9 +43,8 @@ body {
 
 .square3 {
   height: 10vmax;
-  width: 15vmax;
-  left: 60vmax;
-  top: -6vmax;
+  width: 15vw;
+  left: 60vw;
   background-color: #030c8a;
   position: absolute;
   z-index: 6;
@@ -65,7 +62,7 @@ h1 {
 }
 
 h1.title {
-  font-size: 1.5vmax;
+  font-size: 1.5vw;
   color: #030c8a;
   text-align: center;
   font-family: "Palatino";
@@ -73,9 +70,8 @@ h1.title {
   font-weight: 700;
   z-index: 10;
   height: 3vmax;
-  width: 22vmax;
-  left: 62vmax;
-  top: -3vmax;
+  width: 22vw;
+  left: 62vw;
   border: solid;
   border-color: #030c8a;
   background-color: #F4EEDC;
