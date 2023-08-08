@@ -1,13 +1,17 @@
-let wtopo = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
-  attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
-});
+let wtopo = L.tileLayer(
+  "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}",
+  {
+    attribution:
+      "Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community",
+  }
+);
 
-let map = L.map('map', {
-  layers: [wtopo]
+let map = L.map("map", {
+  layers: [wtopo],
 });
 
 // $.getJSON("assets/SlaveRevolts.geojson", function(data){
-  
+
 //   let fourLayer = L.geoJson(data, {
 
 //   filter: function(feature, layer) {
@@ -20,7 +24,7 @@ let map = L.map('map', {
 //       });
 //     },
 //     onEachFeature: PointActions
-    
+
 //   });
 
 //    fourLayer.addTo(map);
@@ -28,8 +32,6 @@ let map = L.map('map', {
 // });
 
 map.setView([37.867789995417226, 12.468310528245546], 15);
-
-
 
 // let overlayMaps = {
 //     "1400s": fourLayer,
