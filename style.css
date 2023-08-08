@@ -33,7 +33,7 @@ body {
 } */
 
 .square2 {
-  height: 15vmax;
+  height: 12vmax;
   width: 30vw;
   left: 70vw;
   background-color: #c95410;
@@ -42,7 +42,7 @@ body {
 }
 
 .square3 {
-  height: 10vmax;
+  height: 9vmax;
   width: 15vw;
   left: 60vw;
   background-color: #030c8a;
@@ -63,7 +63,7 @@ h1 {
 
 h1.title {
   font-size: 2vw;
-  color: #030c8a;
+  color: #F4EEDC;
   content-align: center;
   text-align: center;
   vertical-align: middle;
@@ -72,11 +72,11 @@ h1.title {
   z-index: 10;
   height: 4vw;
   width: 22vw;
-  top: 5vh;
+  top: 4vh;
   left: 62vw;
   border: solid;
-  border-color: #030c8a;
-  background-color: #F4EEDC;
+  border-color: #F4EEDC;
+  background-color: #030c8a;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -86,7 +86,7 @@ h1.title {
 
 h1.subtitle {
   font-size: 1.5vw;
-  color: #030c8a;
+  color: #F4EEDC;
   content-align: center;
   text-align: center;
   vertical-align: middle;
@@ -95,11 +95,11 @@ h1.subtitle {
   z-index: 10;
   height: 3vw;
   width: 8vw;
-  top: 10vh;
+  top: 9vh;
   left: 89vw;
   border: solid;
-  border-color: #030c8a;
-  background-color: #F4EEDC;
+  border-color: #F4EEDC;
+  background-color: #030c8a;
   position: fixed;
   display: flex;
   justify-content: center;
