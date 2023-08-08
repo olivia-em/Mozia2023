@@ -86,7 +86,7 @@ h1.title {
 
 h1.subtitle {
   font-size: 1.5vw;
-  color: #F4EEDC;
+  color: #030c8a;
   content-align: center;
   text-align: center;
   vertical-align: middle;
@@ -98,8 +98,54 @@ h1.subtitle {
   top: 9vh;
   left: 89vw;
   border: solid;
+  border-color: #030c8a;
+  background-color: #F4EEDC;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+h1.title2 {
+  font-size: 2vw;
+  color: #F4EEDC;
+  content-align: center;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Palatino";
+  font-weight: 700;
+  z-index: 10;
+  height: 4vw;
+  width: 22vw;
+  top: 4vh;
+  left: 62vw;
+  border: solid;
   border-color: #F4EEDC;
   background-color: #030c8a;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+h1.subtitle2 {
+  font-size: 1.5vw;
+  color: #030c8a;
+  content-align: center;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Palatino";
+  font-weight: 700;
+  z-index: 10;
+  height: 3vw;
+  width: 8vw;
+  top: 9vh;
+  left: 89vw;
+  border: solid;
+  border-color: #030c8a;
+  background-color: #F4EEDC;
   position: fixed;
   display: flex;
   justify-content: center;
