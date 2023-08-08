@@ -13,6 +13,24 @@
       src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"
     ></script>
     <link rel="stylesheet" href="style.css" />
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+   integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+   crossorigin=""/>
+    
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+   integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+   crossorigin=""></script>
+
+    
+    <!-- Import jquery  -->
+    <script
+           src="https://code.jquery.com/jquery-3.6.0.min.js"
+           integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+           crossorigin="anonymous"></script>
+
+    <!-- Import the webpage's javascript file -->
+    <script src="map.js" defer></script>
+<!--     <script src="assets/leaflet-providers.js"></script> -->
   </head>
   <body class="wrapper" style="background-color: #f4eedc; position: absolute">
     <header
@@ -25,6 +43,7 @@
       <a class="a" href="/kiln.html"
         ><h1 class="subtitle"><i>Il Forno</i></h1></a
       >
+      <div id="map"></div>
     </header>
 
     <main style="position: relative; padding-top: 15vw; width: 100vw">
