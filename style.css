@@ -94,15 +94,16 @@ h1.subtitle {
   z-index: 10;
   height: 3vw;
   width: 8vw;
-  top: 5vh;
-  left: 74vw;
+  top: 10vh;
+  left: 85vw;
   border: solid;
   border-color: #030c8a;
   background-color: #F4EEDC;
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 
 h2 {
