@@ -353,11 +353,16 @@ style="
 
 
 #map {
-  height: 45vw;
-  width: 85vw;
-  z-index: 500;
+  height: 30vw;
+  width: 50vw;
+  z-index: 10;
   margin: auto 0px;
   display: inline-block;
+  margin: 0;
+  position: absolute;
+  left: 15vw
+  
+  
 }
 
 .iframe.container {
