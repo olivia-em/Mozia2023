@@ -360,9 +360,8 @@ style="
   display: inline-block;
   margin: 0;
   position: absolute;
-  left: 15vw
-  
-  
+  left: 4vw;
+  top: 4vmax; 
 }
 
 .iframe.container {
