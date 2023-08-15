@@ -285,8 +285,8 @@ h1.subtitle2 {
   padding-right: 1vw;
 }
 
-h2 {
-  font-size: 12pt;
+h2 { 
+  font-size:calc(10px + 1.5vmax);
   color: #030c8a;
   font-family: "palatino";
   font-weight: 500;
