@@ -181,7 +181,7 @@ body {
 }
 
 h1 {
-  font-size: 14pt;
+  font-size: calc(12px + 1.5vmin);
   color: #030c8a;
   font-family: "Palatino";
   font-weight: 700;
@@ -285,8 +285,8 @@ h1.subtitle2 {
   padding-right: 1vw;
 }
 
-h2 { 
-  font-size:calc(10px + 1.5vmax);
+h2 {
+  font-size: calc(8px + 1.5vmin);
   color: #030c8a;
   font-family: "palatino";
   font-weight: 500;
@@ -296,7 +296,7 @@ h2 {
 }
 
 h3 {
-  font-size: 10pt;
+  font-size: calc(4px + 1.5vmin);
   color: #030c8a;
   /* margin-top: 5px;
   margin-left: 10vw;
